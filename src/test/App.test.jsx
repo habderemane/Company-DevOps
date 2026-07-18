@@ -5,7 +5,7 @@ import App from '../App'
 describe('App', () => {
   it('affiche le titre', () => {
     render(<App />)
-    expect(screen.getByText('Company DevOpsXXX')).toBeInTheDocument()
+    expect(screen.getByText('Company DevOps')).toBeInTheDocument()
   })
 
   it('affiche la liste des utilisateurs après chargement', async () => {
