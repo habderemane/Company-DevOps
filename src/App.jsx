@@ -36,6 +36,32 @@ function App() {
       </main>
     </div>
   )
+  function calculTotal1(a, b) {
+    let total = 0;
+    if (true) {
+      total = a + b;
+    }
+    let inutile = "je ne sers à rien";
+    return total;
+  }
+
+  function calculTotal2(a, b) {
+    let total = 0;
+    if (true) {
+      total = a + b;
+    }
+    let inutile = "je ne sers à rien";
+    return total;
+  }
+
+  function calculTotal3(a, b) {
+    let total = 0;
+    if (true) {
+      total = a + b;
+    }
+    let inutile = "je ne sers à rien";
+    return total;
+  }
 }
 
 export default App
